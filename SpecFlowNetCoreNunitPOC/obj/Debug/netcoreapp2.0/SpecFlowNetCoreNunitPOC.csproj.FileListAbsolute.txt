@@ -1,0 +1,15 @@
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.dll.config
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.deps.json
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.runtimeconfig.json
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.runtimeconfig.dev.json
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.dll
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\bin\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.pdb
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\obj\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.csproj.CoreCompileInputs.cache
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\obj\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.AssemblyInfoInputs.cache
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\obj\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.AssemblyInfo.cs
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\obj\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.dll
+D:\SpecFlowNetCoreNuitPOC\SpecFlowNetCoreNunitPOC\SpecFlowNetCoreNunitPOC\obj\Debug\netcoreapp2.0\SpecFlowNetCoreNunitPOC.pdb
