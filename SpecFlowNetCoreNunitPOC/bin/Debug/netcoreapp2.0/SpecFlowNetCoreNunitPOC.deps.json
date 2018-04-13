@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "9fb70e5e84210e0ac0a022e3a1f8ca544953fd1e"
+    "signature": "6ebdeaca63287a7e74c09964d9ea33ae207afe49"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,8 @@
       "SpecFlowNetCoreNunitPOC/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.6.0",
-          "NUnit": "3.8.1",
+          "NUnit": "3.10.1",
+          "NUnit.ConsoleRunner": "3.8.0",
           "NUnit3TestAdapter": "3.10.0",
           "SpecFlow": "2.1.0",
           "System.Configuration.ConfigurationManager": "4.4.1"
@@ -102,7 +103,7 @@
           "System.Reflection.Metadata": "1.3.0",
           "System.Reflection.TypeExtensions": "4.3.0",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
-          "System.Runtime.Loader": "4.3.0",
+          "System.Runtime.Loader": "4.0.0",
           "System.Runtime.Serialization.Json": "4.0.2",
           "System.Runtime.Serialization.Primitives": "4.1.1",
           "System.Threading.Thread": "4.3.0",
@@ -382,15 +383,12 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NUnit/3.8.1": {
-        "dependencies": {
-          "System.Runtime.Loader": "4.3.0",
-          "System.Threading.Thread": "4.3.0"
-        },
+      "NUnit/3.10.1": {
         "runtime": {
-          "lib/netstandard1.6/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {}
         }
       },
+      "NUnit.ConsoleRunner/3.8.0": {},
       "NUnit3TestAdapter/3.10.0": {
         "dependencies": {
           "Microsoft.DotNet.InternalAbstractions": "1.0.0",
@@ -867,7 +865,7 @@
           }
         }
       },
-      "System.Runtime.Loader/4.3.0": {
+      "System.Runtime.Loader/4.0.0": {
         "dependencies": {
           "System.IO": "4.3.0",
           "System.Reflection": "4.3.0",
@@ -1138,12 +1136,19 @@
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
     },
-    "NUnit/3.8.1": {
+    "NUnit/3.10.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-q+juwqFVwJcTvxF5rOa+4RbEkFb8pWbTH7U1wkMw3cWiUiH1gGTegJemvuCODjtT7DSo73/iMhUqc2+TmM/Nng==",
-      "path": "nunit/3.8.1",
-      "hashPath": "nunit.3.8.1.nupkg.sha512"
+      "sha512": "sha512-E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+      "path": "nunit/3.10.1",
+      "hashPath": "nunit.3.10.1.nupkg.sha512"
+    },
+    "NUnit.ConsoleRunner/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CGgYNNMPmK7/BZ7g36g1GcS3heLN2Zl2aAm54dhOZAXZW3l+3S+imyZ3J9WA+SCiRyBC0PbmkCtb4dVkxoxytw==",
+      "path": "nunit.consolerunner/3.8.0",
+      "hashPath": "nunit.consolerunner.3.8.0.nupkg.sha512"
     },
     "NUnit3TestAdapter/3.10.0": {
       "type": "package",
@@ -1453,12 +1458,12 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "hashPath": "system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.Loader/4.3.0": {
+    "System.Runtime.Loader/4.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
-      "path": "system.runtime.loader/4.3.0",
-      "hashPath": "system.runtime.loader.4.3.0.nupkg.sha512"
+      "sha512": "sha512-4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
+      "path": "system.runtime.loader/4.0.0",
+      "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
     },
     "System.Runtime.Serialization.Json/4.0.2": {
       "type": "package",

@@ -628,19 +628,23 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
         }
       },
-      "NUnit/3.8.1": {
+      "NUnit/3.10.1": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.Runtime.Loader": "4.3.0",
-          "System.Threading.Thread": "4.3.0"
+          "NETStandard.Library": "2.0.0"
         },
         "compile": {
-          "lib/netstandard1.6/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.6/nunit.framework.dll": {}
+          "lib/netstandard2.0/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
         }
+      },
+      "NUnit.ConsoleRunner/3.8.0": {
+        "type": "package"
       },
       "NUnit3TestAdapter/3.10.0": {
         "type": "package",
@@ -1382,12 +1386,12 @@
           }
         }
       },
-      "System.Runtime.Loader/4.3.0": {
+      "System.Runtime.Loader/4.0.0": {
         "type": "package",
         "dependencies": {
-          "System.IO": "4.3.0",
-          "System.Reflection": "4.3.0",
-          "System.Runtime": "4.3.0"
+          "System.IO": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
         },
         "compile": {
           "ref/netstandard1.5/System.Runtime.Loader.dll": {}
@@ -2568,35 +2572,59 @@
         "tools/install.ps1"
       ]
     },
-    "NUnit/3.8.1": {
-      "sha512": "q+juwqFVwJcTvxF5rOa+4RbEkFb8pWbTH7U1wkMw3cWiUiH1gGTegJemvuCODjtT7DSo73/iMhUqc2+TmM/Nng==",
+    "NUnit/3.10.1": {
+      "sha512": "E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
       "type": "package",
-      "path": "nunit/3.8.1",
+      "path": "nunit/3.10.1",
       "files": [
         "CHANGES.md",
         "LICENSE.txt",
         "NOTICES.txt",
-        "lib/monoandroid/nunit.framework.dll",
-        "lib/monoandroid/nunit.framework.xml",
+        "build/NUnit.props",
         "lib/net20/NUnit.System.Linq.dll",
         "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.pdb",
         "lib/net20/nunit.framework.xml",
         "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
         "lib/net35/nunit.framework.xml",
         "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
         "lib/net40/nunit.framework.xml",
         "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
         "lib/net45/nunit.framework.xml",
-        "lib/netstandard1.3/nunit.framework.dll",
-        "lib/netstandard1.3/nunit.framework.xml",
         "lib/netstandard1.6/nunit.framework.dll",
+        "lib/netstandard1.6/nunit.framework.pdb",
         "lib/netstandard1.6/nunit.framework.xml",
-        "lib/uap/nunit.framework.dll",
-        "lib/uap/nunit.framework.xml",
-        "lib/xamarin.ios/nunit.framework.dll",
-        "lib/xamarin.ios/nunit.framework.xml",
-        "nunit.3.8.1.nupkg.sha512",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.10.1.nupkg.sha512",
         "nunit.nuspec"
+      ]
+    },
+    "NUnit.ConsoleRunner/3.8.0": {
+      "sha512": "CGgYNNMPmK7/BZ7g36g1GcS3heLN2Zl2aAm54dhOZAXZW3l+3S+imyZ3J9WA+SCiRyBC0PbmkCtb4dVkxoxytw==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.8.0",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "nunit.consolerunner.3.8.0.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/Mono.Cecil.dll",
+        "tools/nunit-agent-x86.exe",
+        "tools/nunit-agent-x86.exe.config",
+        "tools/nunit-agent.exe",
+        "tools/nunit-agent.exe.config",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.dll",
+        "tools/nunit.nuget.addins",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config"
       ]
     },
     "NUnit3TestAdapter/3.10.0": {
@@ -4796,21 +4824,15 @@
         "system.runtime.interopservices.runtimeinformation.nuspec"
       ]
     },
-    "System.Runtime.Loader/4.3.0": {
-      "sha512": "DHMaRn8D8YCK2GG2pw+UzNxn/OHVfaWx7OTLBD/hPegHZZgcZh3H6seWegrC4BYwsfuGrywIuT+MQs+rPqRLTQ==",
+    "System.Runtime.Loader/4.0.0": {
+      "sha512": "4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
       "type": "package",
-      "path": "system.runtime.loader/4.3.0",
+      "path": "system.runtime.loader/4.0.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
         "lib/net462/_._",
         "lib/netstandard1.5/System.Runtime.Loader.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
         "ref/netstandard1.5/System.Runtime.Loader.dll",
         "ref/netstandard1.5/System.Runtime.Loader.xml",
         "ref/netstandard1.5/de/System.Runtime.Loader.xml",
@@ -4822,7 +4844,7 @@
         "ref/netstandard1.5/ru/System.Runtime.Loader.xml",
         "ref/netstandard1.5/zh-hans/System.Runtime.Loader.xml",
         "ref/netstandard1.5/zh-hant/System.Runtime.Loader.xml",
-        "system.runtime.loader.4.3.0.nupkg.sha512",
+        "system.runtime.loader.4.0.0.nupkg.sha512",
         "system.runtime.loader.nuspec"
       ]
     },
@@ -5755,7 +5777,8 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.NET.Test.Sdk >= 15.6.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "NUnit >= 3.8.1",
+      "NUnit >= 3.10.1",
+      "NUnit.ConsoleRunner >= 3.8.0",
       "NUnit3TestAdapter >= 3.10.0",
       "SpecFlow >= 2.1.0",
       "System.Configuration.ConfigurationManager >= 4.4.1"
@@ -5816,7 +5839,11 @@
           },
           "NUnit": {
             "target": "Package",
-            "version": "[3.8.1, )"
+            "version": "[3.10.1, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.8.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
