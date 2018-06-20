@@ -676,8 +676,11 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "SpecFlow/2.1.0": {
+      "SpecFlow/2.2.1": {
         "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
         "compile": {
           "lib/net45/TechTalk.SpecFlow.dll": {}
         },
@@ -2660,19 +2663,20 @@
         "runtime.native.system.nuspec"
       ]
     },
-    "SpecFlow/2.1.0": {
-      "sha512": "lc6y3/Zu8CSU1EKve7V5LAvYt4TeLRU1H5bS+oO+cHTqx9elDlY4dxsnmaHeSSOOqJnKmlw0YtCu1TLu5lnrjA==",
+    "SpecFlow/2.2.1": {
+      "sha512": "tDQy0FeJOZdfbw9LwB8M/lxFry8P4l45OAIehw88oRb4FXWB8ljyxW3fdegxP6atMk4Wf9XlMS7SaPiNQG9F9A==",
       "type": "package",
-      "path": "specflow/2.1.0",
+      "path": "specflow/2.2.1",
       "files": [
         "LICENSE.txt",
         "changelog.txt",
         "content/App.config.transform",
         "lib/net45/TechTalk.SpecFlow.dll",
-        "specflow.2.1.0.nupkg.sha512",
+        "specflow.2.2.1.nupkg.sha512",
         "specflow.nuspec",
         "tools/Gherkin.dll",
         "tools/Microsoft.Build.Utilities.v3.5.dll",
+        "tools/Newtonsoft.Json.dll",
         "tools/TechTalk.SpecFlow.Generator.dll",
         "tools/TechTalk.SpecFlow.Parser.dll",
         "tools/TechTalk.SpecFlow.Reporting.dll",
@@ -5780,7 +5784,7 @@
       "NUnit >= 3.10.1",
       "NUnit.ConsoleRunner >= 3.8.0",
       "NUnit3TestAdapter >= 3.10.0",
-      "SpecFlow >= 2.1.0",
+      "SpecFlow >= 2.2.1",
       "System.Configuration.ConfigurationManager >= 4.4.1"
     ]
   },
@@ -5812,6 +5816,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://stage-packagegallery.tavisca.com/api/odata": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5851,7 +5856,7 @@
           },
           "SpecFlow": {
             "target": "Package",
-            "version": "[2.1.0, )"
+            "version": "[2.2.1, )"
           },
           "System.Configuration.ConfigurationManager": {
             "target": "Package",
@@ -5871,7 +5876,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'SpecFlow 2.1.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'SpecFlow 2.2.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "SpecFlow",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.0"
